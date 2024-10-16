@@ -1,0 +1,44 @@
+/* Umumiy navigatsiya styling */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;  /* Nuqtali ro'yxatni olib tashlash */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;  /* Elementlar orasidagi masofa */
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    text-decoration: none;  /* Qator ostidagi chiziqni olib tashlash */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;  /* Burchaklarni yumaloqlash */
+  }
+  
+  /* Hover effekti */
+  a:hover {
+    background-color: #555;
+    color: #f3f3f3;
+  }
+  
+  /* Aktiv sahifa uchun styling */
+  a.active {
+    background-color: #ff6600;
+    color: white;
+  }
+.cars{
+    margin: auto 100px;
+}  
