@@ -21,7 +21,7 @@ function Home() {
         <LazyLoadImage
           alt="Small preview"
           effect="blur"
-          src="https://source.unsplash.com/random/200x150?preview"
+          src="https://play-lh.googleusercontent.com/_t_3la6FA-lRhKIYJJcxe-AOSUJPL5l88t3oncSiYM-QfPOUXEkrZaeJiB88VueISg=w240-h480-rw"
           className="small-image"
         />
 
